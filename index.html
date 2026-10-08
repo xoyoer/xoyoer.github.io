@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="小g邮件流水 Gmail 的个人用途、只读访问范围与隐私说明。">
+  <title>小g邮件流水 Gmail · 应用说明</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <nav aria-label="主导航"><a href="index.html" aria-current="page">应用说明</a><a href="privacy.html">隐私政策</a><a href="terms.html">使用条款</a></nav>
+  <p class="eyebrow">xoyoer 的个人工具</p>
+  <h1>小g邮件流水 Gmail</h1>
+  <p class="lead">把个人收件箱按天整理，留下需要处理的事和值得回看的内容。</p>
+  <p>本工具由 xoyoer 维护，仅供维护者本人使用。它通过 Google 官方 Gmail API 读取指定日期的个人收件箱邮件，生成中文分类与摘要，并保存到维护者自己的资料库。</p>
+  <h2>它会做什么</h2>
+  <ul>
+    <li>按北京时间整理指定自然日的收件箱邮件。</li>
+    <li>读取发件人、主题、接收时间、邮件标识、标签及可读正文，用于个人归档。</li>
+    <li>在启用 AI 摘要时，将需要整理的邮件材料交给 Google Antigravity 处理，再保留整理结果。</li>
+    <li>区分需要关注的邮件和普通促销等信息；无法读取或判断的内容明确保留为待查看。</li>
+  </ul>
+  <h2>授权范围</h2>
+  <p>仅请求 <code>https://www.googleapis.com/auth/gmail.readonly</code>。本工具不发送、回复、转发或删除邮件，不改动标签和已读状态，也不创建草稿。邮件附件内容不属于当前自动摘要范围。</p>
+  <div class="note">这是个人工具的公开说明页，不是邮件服务入口。此站点不提供邮箱登录，也不接收或展示邮件数据。Google 授权由维护者在自己的设备上发起。</div>
+  <h2>数据与维护</h2>
+  <p>邮件访问、AI 处理、保存与删除方式详见<a href="privacy.html">隐私政策</a>。摘要仅作个人整理参考，具体使用边界见<a href="terms.html">使用条款</a>。</p>
+  <p>维护者：<a href="https://github.com/xoyoer" rel="noopener noreferrer">xoyoer 的 GitHub 主页</a>。本工具与 Google 没有隶属关系；Gmail 和 Google Antigravity 为各自权利人的产品名称。</p>
+  <footer><a href="privacy.html">隐私政策</a><a href="terms.html">使用条款</a><p>更新日期：2026 年 10 月 8 日</p></footer>
+</main>
+</body>
+</html>
